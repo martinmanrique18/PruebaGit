@@ -22,6 +22,7 @@ namespace appMVC4.Controllers
             //segunda prueba
             //ultima prueba
             //bajar cambios
+            //a dormir carajo
         }
 
         public AccountController(UserManager<ApplicationUser> userManager)
