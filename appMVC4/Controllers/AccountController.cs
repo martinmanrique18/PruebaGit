@@ -18,6 +18,7 @@ namespace appMVC4.Controllers
         public AccountController()
             : this(new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext())))
         {
+            //esto es un comentario de prueba para github
         }
 
         public AccountController(UserManager<ApplicationUser> userManager)
